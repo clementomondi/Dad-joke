@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: linear-gradient(to left bottom, lightblue, lightpink, lightblue);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: monospace;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, .3);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    border-radius: 0.5em;
+    width: 85%;
+    text-align: center;
+    color: darkgreen;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: Impact;
+    font-weight: 200;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, .3);
+    letter-spacing: 2px;
+}
+
+.joke {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 40px;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0.3em;
+    cursor: pointer;
+    border-color: rgba(255, 255, 255, .6);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .3);
+    color: darkgreen;
+    width: 300px;
+    transition: all 300ms ease;
+}
+
+.btn:hover {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0.3em;
+    cursor: pointer;
+    border-color: rgba(255, 255, 255, .6);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .4);
+    color: darkgreen;
+    width: 300px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .3);
+}
